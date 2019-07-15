@@ -1,0 +1,5 @@
+It is used to get information about instance.
+
+curl http://169.254.196.254/latest/meta-data
+curl http://169.254.196.254/latest/user-data
+_______________________________________________________

@@ -1,0 +1,27 @@
+Aurora
+
+- Amazon own MySQL relational database. 
+
+- Start with 10 GB. scales in 10GB increments to 64TB
+
+- Compute resources can scale upto 32vCPUs and 244GB of Memory.
+
+- 2 Copies of data is contained in each AZ, with minimum of 3 AZ, so 6 copies of Data.
+
+- Designed to handle loss of 2 copies without affecting Write availability and 3 copies without affecting Read availability.
+
+- It is also self healing. Data blocks and disks are continously scanned for errors and repaired automatically.
+
+Two Types of Aurora Replicas:
+
+- Aurora Replicas (currently 15)
+- MySQL Read Replicas (currently 5)
+
+Backups:
+
+- Automated backups. It doesnot impact performance.
+
+- We can take snapshots with Aurora. This also doesnot impact performance.
+
+- We can share Aurora Snapshots with opther AWS accounts.
+

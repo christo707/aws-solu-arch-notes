@@ -1,0 +1,183 @@
+Services Cont 3...
+
+
+
+11. Security Identity and compliance
+
+
+
+IAM: Identity access management
+
+
+
+Cognito: Device authentication
+
+
+
+GuardDuty: Montors miscellaneous activity
+
+
+
+Inspector: Run tests on ec2 to check vulnerabilities
+
+
+
+Macie: Scan S3 buckets to find personal data
+
+
+
+Certificate Manager: To get ssl certificates
+
+
+
+CloudHSM: Hardware security module
+
+
+
+Directory Services: Integreting microsoft directory
+
+
+
+WebApplicationFirewall(WAF): For security at application layer for cross site scripting etc
+
+
+
+AWS Shield: DDOS prevention
+
+
+
+Artifact: Portal for aws complaince report
+
+
+
+12. Mobile Services
+
+
+
+Mobile Hub: Sets up mobile app for cloud
+
+
+
+Pinpoint: Targeted mobile notification
+
+
+
+AWS AppSync: Syncs data on cloud and mobile
+
+Device 
+
+Farm: Testing app on devices
+
+
+
+Mobile Analytics: analytics for mobile
+
+
+
+13. AR/VR
+
+
+
+Sumerian: lanuage and tools for ar/vr 
+
+
+
+14 Applicaton Integration
+
+
+
+Step Functions: To integrate lambda fns
+
+
+
+Amazon MQ: Message Queue
+
+
+
+SNS: Simple notification service
+
+
+
+SQS: Simple Queue Service. Decoupling infrastructure
+
+
+
+SWF: Simple Workflow service
+
+
+
+15 Customer Engagement
+
+
+
+Amazon Connect: Contact center as a service.
+Like call center
+
+
+
+Simple Email Service(SES): Sending large amount of emails.
+
+
+
+16 Business Productivity
+
+
+
+Alexa For Business:
+
+
+
+Chime: Video Conferencing
+
+
+
+WorkDocs: Sharepoint for doc storing and sharing
+
+
+
+Workmail: Amazon mails
+
+
+
+17 Desktop and app Streaming
+
+
+
+Workspaces: VDI solutions
+
+
+
+AppStream 2.0: 
+
+
+
+18 Internet of things:
+
+
+
+IOT:
+
+
+
+IOT Device Management: 
+
+
+
+Amazon FreeRtos: OS for microcontroller
+
+
+
+GreenGrass: Edge devices computing
+
+
+
+19. Game Development
+
+
+
+GameLift: For game development 
+
+
+
+
+

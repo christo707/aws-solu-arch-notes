@@ -1,0 +1,156 @@
+Services:
+
+
+
+1. Compute
+
+
+
+EC2: elastic compute cloud. Virtual machines in amazon infrastructure
+
+
+
+EC2 Container service: To create and manage docker containers. 
+
+
+
+Elastic beanstalk: For developers want to only upload code. It configures everthing itself.
+
+
+
+Lambda: Serverless computing. Only worry code. It creates env execute code and destroy env
+
+
+
+LightSail: VPS service. Virtual private server
+
+
+
+Batch: for batch computing
+
+
+
+2. Storage
+
+
+
+S3: simple storage service. For object storage. Creates a bucket for storing files.
+
+
+
+EFS: Elastic file system. Network attached storage.
+
+
+
+Glacier: Data archival
+
+
+
+Snowball: Store large amount data. Send data to datacenter physically.
+
+
+
+Storage Gateway: Virtual apliances storing
+
+
+
+Databases
+
+RDS: Relational data service
+
+
+
+DynamoDB: Non relational database
+
+
+
+Elasticache: For caching
+
+
+
+Red shift: Data warehousing and complex query
+
+
+
+3. Migration
+
+
+
+AWSMigrationHub: Track service as we migrate 
+
+Application 
+
+Discovery Service: Track dependency for application
+
+
+
+Database Migration Service: Track database migration
+
+
+
+Server Migration Service: Tracks server migration.
+
+
+
+Snowball: Migrating large amount of data.
+
+
+
+4. Network & Content Delivery 
+
+
+
+VPC: Virtual private cloud.
+
+
+
+CloudFront: Amazon Content Delivery network. Serves files from edge location.
+
+
+
+Route53: Amazon routing service.
+
+
+
+Api Gateway: creating api for other service to talk to.
+
+
+
+Direct Connect: For connecting direct line from office to amazon data center
+
+
+
+5. Developer Tools
+
+
+
+CodeStar: managing code. Collaboration
+
+
+
+CodeCommit: Store codes
+
+
+
+CodeBuild: For compile and create packages
+
+
+
+CodeDeploy: Deploying Code
+
+
+
+Code Pipeline: Automate deploying
+
+
+
+XRay: Debug and anazlyze and find problems.
+
+
+
+Cloud9: IDE for development
+
+
+
+
+ 

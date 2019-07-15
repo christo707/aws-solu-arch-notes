@@ -1,0 +1,25 @@
+IAM
+
+Manage Users and their level of access to aws console. 
+
+- Centralised control of aws account
+- Shared Access to aws account
+- Granular permissions
+- Identity Federation (includng Active Directory, Facebook, LinkedIn etc)
+- Multifactor Authentication
+- Provide temporary access for users/devices and services where necessary
+- Set up own account password rotation policy
+- Integrates with many different aws services
+- Supports PCI DSS Compliance
+
+
+Critical Terms:
+
+Users: End Users
+
+Groups: Collection of users under one set of permissions
+
+Roles- Create roles and assign them to aws resources. Allow service to access other services.
+
+Policies- Document that defines one or more permissions.
+

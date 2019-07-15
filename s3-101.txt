@@ -1,0 +1,70 @@
+S3 (Simple Storage Service)
+
+- Provides durable, highly-scalable object storage.
+- Safe place to store files. Object-based storage.
+- Files can be from 0bytes to 5 TB.
+- Unlimited storage.
+- Stored in Buckets.
+- S3 is a unversal namespace. Names must be unique globally.
+- Urls example:
+https://s3.eu-west-1.amazonaws.com/christo
+(christo is name of bucket, have to be unique)
+- When we upload file to s3, we will receive a HTTP 200 if upload is successfull.
+
+* Data Consistency Model
+
+- Read after Write consistency for PUTS of new Objects.
+- Eventual Consistency for overwrite PUTS and DELETE(can take some time to propagate becaue it is spread to various regions)
+
+* S3 is simple Key-value Store
+- Key (Name of object)
+- Value (Data and is made of seuence of bytes)
+- Version ID (important for versioning)
+- Metadata (Data about data you are storing).
+- Subresources:
+  - Access Control Lists (individual file permission)
+  - Torrent
+
+- Amazon grarantee 99.9% availability
+- Amazon guarantees 99.99999999999 durability for s3 information (11 x 9s).
+- Tiered Storage Available
+- Lifecycle Management
+- Versioning
+- Encryption
+- Secure your data using Access control list and Bucket Policies.
+
+
+* S3 Storage Tiers/CLasses
+
+# S3 Standard: 99.99 % availability, 99.99999999999% durability. Stored redundantly across multiple devices in multiple facilities and is designed to sustain loss of 2 facilities concurrently.
+
+# S3-IA: (Infrequently Accessed): For data not accessed frequently, But require rapid access when needed. Lower fee than s3 but will be charged retreival fee. Stored redundantly across multiple devices in multiple facilities.
+
+# S3 One Zone - IA: Lower cost option for infrequently used data, do not require multiple Availability zone data resilience. Can be used for data which is easily reproducible.
+
+# Glacier: Very Cheap, but used for archival only. Expedited(restored in few minutes), Standard(restored in 3 - 5 hrs) or bulk(taes 10 - 12 hrs). Standard retrieval time takes 3 - 5 hours.
+
+- Retreival fees
+S3 Standard - N/A
+S3 Standard IA - 128kb*
+S3 Standard One zone IA : 128kb*
+Glacier- N/A
+
+- Charges
+ - Storage
+ - Requests
+ - Storage Management Pricing
+ - Data transfer pricing
+ - Transfer Acceleration
+
+* Transfer Acceleration
+Users upload files to edge locations and then it is transferd to region where bucket is on amazon backbone network which can be more fast.
+
+ 
+ 
+
+ 
+
+
+
+ 

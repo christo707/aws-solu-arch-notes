@@ -1,0 +1,134 @@
+S3 (Simple storage service)
+
+- Provides secure, durable, highly scalable object storage.
+
+- Safe place to store files.
+
+- Data is spread across multiple facilities.
+
+- Files 0 bytes to 5 TB.
+
+- Unlimited storage.
+
+- Files are stored in Buckets(folder).
+
+- S3 is a universal namespace. i.e.., bucket names should be unique.
+
+- HTTP 200 for successfull file upload.
+
+- Not suitable to install operating system or a database.
+
+______________________________________________________
+
+- Objects consist of foloowing:
+
+1. Key (name of object)
+
+2. Value (File data which is sequence of bytes.)
+
+3. Version ID (for versioning)
+
+4. Metadata (data about data which we are storing)
+
+5. Subresources:
+	Access Control Lists 
+	Torrent
+_________________________________________________
+
+How does data consistency work for s3?
+
+Ans: 
+- Read after Write consistency for PUTS of new objects. 
+- Eventual Consistency for overwrite PUTS and DELETES (can take some time to propagate)
+____________________________________________________
+
+S3 guarantees:
+
+- Built for 99.99% availability 
+- 99.9% availability
+- 99.99999999999% (11x9s) durability
+_____________________________________________________
+
+- Tiered storage Available
+- Lifecycle Management
+- Versioning
+- Encrption
+- MFA Delete
+- Secure data using Access Control Lists and Bucket Policies.
+_____________________________________________________
+
+Different Storage Classes
+
+1. S3 Standard
+99.99%availability, 99.99999999999% durability, stored redundantly across multiple devices in multiple facilities, and is designed to sustain the loss of 2 facilities concurrently.
+
+2. S3 - IA(Infrequently Accessed):
+For data that is accessed less frequently, but requires rapid access when needed. Lower fee than S3, but charged retrieval fee.
+
+3. S3 One Zone - IA  or RRS(Reduced Redudancy storage)
+Low cost option. Not required multiple availability zone.
+
+4. S3- Intelligent Tiering
+Designed to optimize costs by automatically moving data to most cost-effective access tier, without performance impact or operation overhead.
+
+5. S3 Glacier
+Data archiving. Retrieval time is from minutes to hours
+
+6. S3 Glacier Deep Archive
+Lowest cost. Retrieval time is 12 hours.
+_________________________________________________
+
+Charged for:
+
+- Storage
+
+- Requests (Retreival frequency)
+
+- Storage management pricing (Different Tiers)
+
+- Data Transfer Pricing
+
+- Transfer Acceleration 
+(To enable fast, easy and secure transfers of files over long distances between your end users and an S3 bucket.
+	Takes advantage of Amazon Cloudfront's globally distributed edge locations.)
+
+- Cross Region Replication Pricing (copy data from one bucket to another in different location)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+Aws 
+Certified Solutions architect
+
+
+
+Regions: It is a geographical area.
+
+
+
+Availability Zones(AZ): One or more Data Centers.
+			Each Region has 2 or more AZ.
+			More than one is used so that if one gets flodded other can serve the requests.
+
+
+
+Edge locations: End points for aws used for caching content.
+
+		Consists of cloudfront, Amazon content delivery network. So to get fast response.
+
+
+
+		Currently more than 96 edge locations.
+
+16 regions and 44 availabilty zones in 2017.
+
+
+
+

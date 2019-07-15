@@ -1,0 +1,13 @@
+- Change in Security group change takes place immediately.
+
+- Security Group are STATEFUL i.e.., if we create a inbound rule it will automatically create an outbound rule.
+
+- We can block individual IP adress or port in security group.
+
+- In security group All Inbound Traffic is blocked by default and we have to allow it.
+
+- In security group All Outbound Traffic is allowed by default.
+
+- We can have multiple security groups attached to EC2 Instances as well as any number of EC2 instances within a security group.
+
+- Insecurity group we can specify allow rules, but not deny rules.

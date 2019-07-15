@@ -1,0 +1,127 @@
+AWS EC2
+
+- Web service provides resizable computing capacity in cloud.
+
+______________________________________________
+Pricing:
+
+- On Demand (Pay fixed rate by the hour or second with no commitment)
+
+- Reserved (Provides capacity reservation, offer significant discount on hourly charge for an instance. Contract terms are 1 to  3 year term)
+
+- Spot (Enables you to bid whatever price you want for instance capacity, providing for even greater savings if application have flexible start and end times.)
+
+- Dedicated Hosts (Physical EC2 server dedicatted for your use. Can reduce costs by allowing you to use your existing server - bound softwae licenses.)
+______________________________________________________
+
+On Demand
+
+- Low cost, flexible without up-front payment or commitment.
+
+- Applications with short term, spiky or unpredictable workloads that cannot be interrupted.
+
+- Applications being developed or tested on Amazon EC2 for first time.
+_______________________________________________________
+
+Reserved Pricing
+
+- Applications with steady or predictable usage.
+- Applications that require reserved capacity.
+- User able to make upfront payment.
+
+Types:
+- Standard Reserved Instances
+- Convertible Reserved Instances
+- Scheduled Reserved Instances
+_______________________________________________________
+
+Spot Pricing
+
+- Applications that have flexible start and end times.
+- Applications that are only feasible at very low compute prices.
+- Users with urgent computing needs for large amounts of additional capacity.
+________________________________________________________
+
+Dedicated Hosts 
+
+- Useful for regulatory requirements
+- Can be purchased On-Demand(hourly)
+- Can be purchased as a Reservation for upto 70% off the On-Demand price.
+_________________________________________________________
+
+EC2 Instances Types- Mnemonic
+
+F - For FGPA
+I - For IOPS
+G - Graphics
+H - High Disk Throughput
+T - Cheap General Purpose
+D - For Density
+R - For RAM
+M - Main choice for general purpose apps
+C - For Compute
+P - Graphics (think Pics)
+X - Extreme Memory
+Z - Extreme Memory AND CPU
+A - Arm Based Workloads
+U - Bare Metal
+________________________________________________________
+
+
+- Termination Protection is turned off by default, we must turn it on.
+
+- On a EBS-backed instance, the default action is for the root EBS volume to be deleted when the instance is terminated.
+
+- EBS Root Volumes of default AMI's cannot be encrypted. We can use third party tool (like bit locker) to encrypt root volume.
+
+- Additional volumes can be encrypted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+

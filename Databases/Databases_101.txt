@@ -1,0 +1,89 @@
+Relational Databases on AWS (OLTP):
+
+- SQL Server
+- Oracle
+- MySQL Server
+- PostgreSQL
+- Aurora
+- MariaDB
+
+RDS has two features:
+
+- Multi-AZ: For Disaster Recovery
+- Read Replicas - For Performance
+
+NON Relational Databases:
+
+* Collection = Table
+* Document = Row
+* Key Value Pairs = Fields
+
+__________________________________________________________
+
+Data Warehousing
+
+Used for Business intelligence. Tools like Cognos, Jaspersoft, SQL Server Reporting Services, Oracle Hyperion, SAP NetWeaver.
+
+Used to pull in very large and complex data sets. Usually used by management to do queries on data (such as current performance vs targets etc.)
+
+__________________________________________________________
+
+OLTP vs OLAP
+
+Online Transaction Processing (OLTP) differs from Online Analytics processing (OLAP) in terms of queries you will run.
+
+OLTP pulls a particular record like fetch order with order no 1234
+
+OLAP runs a complex query to get a result like calculate the total profit in sales of radio from Europe Asia and Africa.
+
+__________________________________________________________
+
+- Data Warehousing databases use different type of architecture both from a database perspective and infrastructure level.
+
+- Amazon Data Warehouse Solution is called RedShift.
+
+_____________________________________________________
+
+ElasticCache is a web service that makes it easy to deploy, operate, and scale an in memory cache in cloud. 
+
+- The Serviceimproves performance of web application by allowing to retreive information from fast, managed, in-memory caches, instead of relying entirely on slower-disk based databases.
+
+ElasticCache supports two open-source in-memory caching engines:
+
+* Memcached
+* Redis
+
+__________________________________________________________
+
+- RDS on virtual machines.
+
+- We cannot log in to these operating systems however.
+
+- Patching of RDS Operating System and DB is Amazon's responsibility.
+
+- RDS is NOT Serverless.
+
+- Aurora Serverless is serverless.
+
+__________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+

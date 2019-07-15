@@ -1,0 +1,16 @@
+- We can interact with AWS from anywhere in the world just by using the command Line (CLI).
+
+- We need to set up access in IAM.
+
+______________________________________________________
+
+- Roles are more secure than storing your access key and secret access key on individual EC2 instances.
+
+- Roles are easier to manage.
+
+- Roles can be assigned to an EC2 instance after it is created using both the console & command line.
+
+- Roles are universal - we can use them in any region.
+
+________________________________________________________
+

@@ -1,0 +1,18 @@
+Dynamo DB
+
+- Fast, flexible NoSQL database service for all applications that need consistent, single digit millisecond latency at any scale.
+
+- Fully managed database and supports both document and key-value data models.
+
+-  Stored on SSD
+
+- Spread on 3 geographically distinct data centres.
+
+- Eventual Consistent Read (Default)
+
+Consistency across all copies of data is usually reached within a second. Repeating a read after a short time should return updated value. (Best REad performance)
+
+- Strong Consistent Read
+
+A strongly consistent read returns a result that reflects all writes that received a successful response prior to the read.
+

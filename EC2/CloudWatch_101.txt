@@ -1,0 +1,110 @@
+CloudWatch
+
+- It is a monitoring service.
+
+- It monitors performance.
+
+- It can monitor:
+
+1. Compute:
+	* EC2 Instances
+	* Autoscaling Groups
+	* Elastic load Balancers
+	* Route53 Health Checks
+
+2. Storage & Content Delivery:
+	* EBS Volumes
+	* Storage Gateways
+	* CloudFront
+
+_____________________________________________________
+
+CloudWatch & EC2:
+
+Host Level Metrics Consist of:
+	* CPU
+	* Network
+	* Disk
+	* Status Check
+
+______________________________________________________
+
+What is CloudTrail :
+
+AWS CloudTrail increases visibility into your user and resource activity by recording AWS Management Console actions and API calls.
+
+ You can identify which users and accounts called AWS, the source IP address from which the calls were made, and when the calls occured.
+
+- CloudWatch monitors performance
+
+- CloudTrail monitors API calls in AWS platform.
+
+_______________________________________________________
+
+- CloudWatch with EC2 will monitor events every 5 minutes by default.
+
+- You can have 1 minute intervals by turning on detailed monitoring.
+
+- You can create CloudWatch alarms which trigger notifications.
+
+
+*** CloudWatch monitors performance. CloudTrail is all about auditing. ***
+
+_________________________________________________________
+
+What I can do with cloudwatch?
+
+* Dashboards - Create awesome dashboards to see what is happening with your AWS environment.
+
+* Alarms - Allows you to set Alarms that notify you when particular thresholds are hit.
+
+* Events - CloudWatch Events helps you to respond to state changes in your AWS resources.
+
+* Logs- Helps to aggregate, monitor and store logs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

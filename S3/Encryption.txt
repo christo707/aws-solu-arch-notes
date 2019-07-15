@@ -1,0 +1,23 @@
+- By default all newly created buckets are PRIVATE.
+
+- S3 buckets can be configured to create access logs which logs all requests. 
+
+_______________________________________________
+
+Encryption
+
++ Encryption In transit (encryption during file transfer.)
+ Achieved by:
+  - SSL/TLS
+
++ Encryption At Rest (Server side) achieved by:
+
+SSE: Server Side encryption
+
+- S3 Managed Keys - SSE-S3 (Keys is way to encrypt and decrypt objects)
+
+- AWS Key Management Service, Managed Keys- SSE-KMS
+
+- Server side encryption with customer provided Keys - SSE-C
+
++ Client Side encryption

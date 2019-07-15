@@ -1,0 +1,149 @@
+Services cont...
+
+
+
+7. Management Tools
+
+
+
+CloudWatch: Monitoring service
+
+
+
+CloudFormation: Scripting infrastructure
+
+
+
+CloudTrail: Logs changes for aws environment
+
+
+
+Config: monitors configuration of aws env. Points snapshots of aws env.
+
+
+
+OpsWorks: Automating env.
+
+
+
+Service Catalog: Manage catalogs of IT services.
+
+
+
+SystemsManager: Interface for managing aws resources.
+
+
+
+Trusted Advisor: Advices on various areas of aws env
+
+
+
+Managed Services:
+
+
+
+8. Media Services
+
+
+
+Elastic Transcoder: resizes videos
+
+
+
+MediaConvert: 
+
+
+
+MediaLive: 
+
+
+
+MediaPackage:
+
+
+
+MediaStore:
+
+
+
+MediaTailor: 
+
+
+
+9. Machine Learning
+
+
+
+SageMaker: For deeplearing
+
+
+
+Comprehend: Sentimental analysis
+
+
+
+DeepLens: Figures what camera is looking at
+
+
+
+Lex: powers alexa service. Interacting with customers.
+
+
+
+MachineLearning: traditional MachineLearning
+
+
+
+Polly: Convert text to speech.
+
+
+
+Rekognition: Reads files and tells what is in the file(video, audio) 
+
+
+
+Amazon Translate: Translates language.
+
+
+
+Amazon Transcribe: Speech to text.
+
+
+
+10. Analytics
+
+
+
+Athena:
+
+
+
+EMR: elastic mat reduce. Process large amount of data.CloudSearch,
+
+ElasticSearchService: For searching
+
+
+
+Kinesis: Injesting large amount of data.
+
+
+
+Kinesis Video Stream:
+
+
+
+QuickSight: Business Intelligence tool
+
+
+
+Data Pipeline: Move data in different services
+
+
+
+Glue: For etl(extract transform load)
+
+
+
+  
+
+

@@ -1,0 +1,18 @@
+AWS Storage Gateway:
+
+Service that connects an on-premises software appliance with cloud based storage to provide seamless and secure integration between an organization's on-premesis IT environment and AWS's storage infrastructure.
+
+The service enables you to securely store data to AWS cloud for scalable and cost effective storage.
+
+Types:
+
+- File  Gateway (NFS)
+	For flat files, stored directly to S3
+
+- Volume Gateway (iSCSI)
+  - Stored Volumes (Entire dataset to store locally and backup asynchronously on AWS S3)
+  
+  - Cached Volumes (Entire dataset on S3 and most frequently used data is also stored locally) 
+
+- Tape Gateway 
+	Move tape data to AWS virtual tapes for archiving.

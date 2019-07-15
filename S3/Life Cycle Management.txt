@@ -1,0 +1,5 @@
+Lifecycle: Automates moving your objects between different storage tiers.
+
+- Can be use in conjuction with versioning.
+
+- Can be applied to current and previous versions.

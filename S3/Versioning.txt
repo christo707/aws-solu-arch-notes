@@ -1,0 +1,9 @@
+- Stores all versions of an object (including all writes and even if you delete an object)
+
+- Great backup tool
+
+- Once enabled, Versioning cannot be disabled only suspended.
+
+- Integrates with Lifecycle rules.
+
+- Versioning MFA Delete capability, uses multi-factor authentication, provide extra layer of security.

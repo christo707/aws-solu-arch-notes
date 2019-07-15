@@ -1,0 +1,52 @@
+RedShift
+
+- Used for Business Intelligence.
+
+- Fast and powerful, fully managed, petabyte scale data warehouse service in cloud.
+
+- Red SHift can be configured as:
+
+1. Single Node (160 GB)
+
+2. Multi Node
+ Leader Node (manages client connections and receives queries.)
+ Compute Node (Store data and perform queries and computations). Can support 128 compute node behind leader node.
+
+- Use Advanced Compression
+
+- Use massively parellel processing
+
+
+Backups
+
+- Enabled by default with 1 day retention period.
+
+- max retention is 35 days.
+
+- Always keep 3 copies of your data (original and replica on compute node and backup in Amazon S3).
+
+- Can asynchronously replicate snapshots to S3 in another region for Disaster Recovery.
+
+Charges
+
+- Chargerd for Compute Node Hours.
+
+- Charged for backup and data transfer.
+
+Security
+
+- Encrypted in transit using SSL
+
+- Encryptrd at rest using AES - 256 Encryption
+
+- By default RedShift takes care of key management.
+
+Availability
+
+- Currently only available in 1 AZ
+
+- Can restore snapshots to new AZ in event of outage.
+
+
+
+

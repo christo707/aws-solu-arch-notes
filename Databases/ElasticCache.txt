@@ -1,0 +1,16 @@
+Elasticache
+
+- It is a web service that makes it easy to deploy, operate, and scale an in memory cache in the cloud. 
+
+- The service improves performance of web applications by allowing to retreive information from fast, managed, in-memory caches, instead of relying entirely on slower disk based databases.
+
+- Supports two caching engines:
+* Memcached
+* Reddis
+
+- Reddis is multi-AZ
+
+- You can do back ups and restore of Reddis.
+
+- If you need to scale horizontall, use Memcached.
+

@@ -1,0 +1,32 @@
+- IAM is global it doesnot deppend on region.
+
+- Access key Id and Secret Access key for progmatically access
+
+- A policy is an object in AWS that, when associated with an entity or resource, defines their permissions.
+
+- AWS evaluates these policies when a principal, such as a user, makes a request. Permissions in the policies determine whether the request is allowed or denied. Most policies are stored in AWS as JSON documents.
+
+- IAM roles are a secure way to grant permissions to entities that you trust. 
+Examples of entities include the following:
+
+* IAM user in another account
+
+* Application code running on an EC2 instance that needs to perform actions on AWS resources
+
+* An AWS service that needs to act on resources in your account to provide its features.
+
+* Users from a corporate directory who use identity federation with SAML
+
+IAM roles issue keys that are valid for short durations, making them a more secure way to grant access.
+
+- Billing alarm can be set through billing dashboard. It uses cloudwatch
+
+Summary
+
+IAM consist of the following:
+
+- Users
+- Groups (A way to group our users and apply policies to them collectively)
+- Roles (To grant permission for a service to use another service.)
+- Policy Documents (JSON object gives info of permissions)
+

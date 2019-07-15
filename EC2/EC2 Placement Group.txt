@@ -1,0 +1,33 @@
+EC2 Placement Groups
+
+Types: 
+
+- Clustered Placement Group
+- Spread Placement Group
+
+1. Clustered Placement Group
+
+A cluster placement group of instances within single availability Zone. Placement groups are recommended for applications that need low network latency, high network throughput, or both.
+
+Only certain instances can be launched in to a Clustered Placement group.
+
+2. Spread placement Group
+
+It is a group of instances that are each placed on distinct underlying hardware.
+
+Recommended for applications that have small number of critical instances that should be kept seperate from each other.
+
+
+- Clustered placement group can't span multiple Availability Zones whereas Spread placement group can.
+
+- Name of placement group must be unique within your AWS account.
+
+- Only certain type of instance can be launched in placement group (Compute optimized, GPU, Memory Optimized, Storage optimized)
+
+- AWS recomends homogenous instances within placement groups.
+
+- We can merge placement groups.
+
+- We can't move an existing instance into placement group. We can create an AMI from your existing instance, and then launch a new instance from AMI into a placement group.
+
+__________________________________________________________
