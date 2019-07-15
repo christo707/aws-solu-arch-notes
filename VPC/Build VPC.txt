@@ -1,0 +1,14 @@
+- When we create VPC we create route table, ACL and security group.
+
+- New VPC won't create any subnets, nor will create a default internet gateway.
+
+- US-East-1A in one aws account can be completely different availability zone to US-East-1A in another aws account. The AZ's are randamized.
+
+- Amazon always reserve 5 IP addresses within your subnets.
+
+- We can have 1 Internet Gateway per VPC.
+
+- Security Groups can't span VPCs.
+__________________________________________________________
+
+- We cannot connect to Internet through our private subnet EC2, we will do this through NAT (Network Address Translation)

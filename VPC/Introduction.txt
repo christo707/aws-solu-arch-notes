@@ -1,0 +1,60 @@
+- Amazon Virtual Private Cloud (Amazon VPC) lets you provision a logically isolated section of AWS cloud where you can launch aws resources in a virtual network that you define.
+
+- You have complete control over your virtual networking environment, including section of your own IP address range, creation of subnets, and configuration of route tables and network gateways.
+
+__________________________________________________________
+
+What can we do with a VPC?
+
+- Launch instances into a subnet of your choosing.
+
+- Assign custom IP address ranges in each subnet.
+
+- Configure route tables between subnets.
+
+- Create internet gateway and attach it to our VPC
+
+- Much better security control over our AWS resources
+
+- Instance security groups.
+
+- Subnet network access control lists (ACLS)
+
+__________________________________________________________
+
+Default VPC vs Custom VPC
+
+- Default VPC is user friendly, allowing to immediately deploy instances.
+
+- All subnets in default VPC have a route out to the internet.
+
+- Each EC2 instance has both a  public and private IP address.
+
+__________________________________________________________
+
+VPC Peering
+
+- Allows you to connect one VPC with another via a direct network route using private IP addresses.
+
+- Instances behave as if they were on same private network.
+
+- We can peer VPC with another AWS account as well as with other VPC in same account.
+
+- Peering is in a star configuration i.e.., 1 central VPC peers with 4 other.
+NO TRANSITIVE PEERING!!!
+
+- We can peer between regions
+
+__________________________________________________________
+
+- Think of VPC as a logical datacenter in AWS.
+
+- Consist of IWG (or virtual private Gateways), Route tables, Network Access Control Lists, Subnets, and security Groups.
+
+- 1 Subnet = 1 Availability Zone
+
+- Security group are stateful, Network Access Control Lists are Stateless
+
+- No Transitive Peering
+__________________________________________________________
+
