@@ -67,6 +67,61 @@ __________________________________________________________
 
 Geolocation Routing Policy
 
+- It lets you choose where your traffic will be sent based on geographic location of users (i.e.., location where DNS queries originate).
+
+- Eg., We might all queries from europe to be routed to EC2 instances configured for European customers. These instances may have local language of your European customers and all prices are displayed in Euros.
+
+__________________________________________________________
+
+Geoproximity Routin Policy (Traffic flow only)
+
+- Geoproximity routing lets Amazon Route 53 route traffic to your resources based on geographic location of your users and your resources.
+
+- You can also optionally choose to route more traffic or less to a given resource by specifying a value, known as a bias. A Bias expands or shrinks the size of geographic region from which traffic is routed to a resource.
+
+__________________________________________________________
+
+Multivalue Answer Routing Policy
+
+- Multivalue answer routing lets you configure Amazon Route 53 to return multiple values, such as IP addresses for your web servers, in response to DNS queries. 
+
+- We can specify multiple values for almost any record, but multivalue answer routing also lets you check health of each resource, so Route 53 returns only values for healthy resources.
+
+- Similar to simple routing policy however it allows to pust health check on each record set.
+
+__________________________________________________________ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
