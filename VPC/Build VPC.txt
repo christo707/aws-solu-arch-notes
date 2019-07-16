@@ -12,3 +12,6 @@
 __________________________________________________________
 
 - We cannot connect to Internet through our private subnet EC2, we will do this through NAT (Network Address Translation)
+
+Thanks for opportunity.
+I was interested in React project but was not looking for plain javascript front end project. I will try to find some backend or cloud development project.

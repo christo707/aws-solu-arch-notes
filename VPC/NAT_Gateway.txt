@@ -1,0 +1,41 @@
+- Nat Instance
+EC2 Instance
+
+- Nat Gateway
+Highly availale gateway which allow our private subnet to comunicate to internet
+
+- Disable source and receiver check for NAT instance to make a gateway.
+
+____________________________________________
+
+- When creating a NAT instance, Disale Source/Destination Check on the Instance.
+
+- NAT instances must be in a pubic subnet.
+
+- There must be a route out of private subnet to NAT instance, in order for this to work.
+
+- Amount of traffic that NAT instances can support depends on instances size. If you are bottlenecking, increase the instance size.
+
+- We can create high availability using Autoscaling Groups, multiple subnets in different AZs, and script to automate failover.
+
+- Nat Instance is behind a Security group.
+
+____________________________________________
+
+NAT Gateways
+
+- Redundant inside AZ
+
+- Preferred by enterprise.
+
+- Starts at 5Gbps and scale currently to 45Gbps.
+
+- No need to patch OS.
+
+- Not associated with security Group.
+
+- Automatically assigned a public IP address.
+
+- Remember to update your route tables.
+
+- No need to disable Source/Destination Checks.

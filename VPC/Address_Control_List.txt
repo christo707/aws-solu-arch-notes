@@ -1,0 +1,13 @@
+- A default network ACL is created on creating VPC.
+
+- A NACL blocks everything by default.
+
+- A subnet can be attached to only a single NACL.
+
+- A NACL can have multiple subnets.
+
+- Rules have Cronological order.
+
+- NACL is before Security group.
+
+__________________________________________________________ 
