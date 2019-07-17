@@ -27,3 +27,86 @@ Not All Traffic is monitored.
 
 __________________________________________________________
 
+Bastion Host
+
+- A NAT Gateway or NAT instance is used to provide internet traffic to EC2 instances in a private subnets.
+
+- A Bastion is used to securely administer EC2 instances(Using SSH or RDP) in private subnet. Also called Jump Box.
+
+- We cannot use NAT Gateway as a Bastion host.
+
+__________________________________________________________
+
+Direct Connect
+
+- Cloud service solution that makes it easy to establish a dedicated network connection from your premesis to AWS.
+
+- Useful for high throughput workloads (ie lots of network traffic)
+
+- Or if we need a stable and reliable secure connection.
+
+__________________________________________________________
+
+VPC EndPoints
+
+- A VPC endpoint enables you to privately connect your VPC to supported AWS services and VPC endpoint services powered by private link without requiring internet gateway, NAT device, VPN connection, or AWS Direct connect connection. 
+
+- Instances in your VPC do not require IP addresses to communicate with resources in the service. Traffic between your VPC and other service does not leave Amazon Network.
+
+- Endpoints are virtual devices. They are horizontally scaled, redundant, and highly available VPC components that allow communication between instances in your VPC and services without imposing availability risks or bandwidth constraints on your network traffic.
+
+- Two Types:
+
+* Interface Endpoint
+	It is an elastic network interface with private IP address that serves as an entry point for traffic destined to a supported service.
+
+* Gateway Endpoint
+	For S3 and DynamoDB
+
+__________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
