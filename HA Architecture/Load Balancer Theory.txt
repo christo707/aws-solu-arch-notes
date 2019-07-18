@@ -1,0 +1,160 @@
+- Load Balancer balances load between different instances.
+
+Three types:
+
+- Application Load Balancer: 
+
+- Best suited for load balancing of HTTP and HTTPS traffic. They operate at layer 7 and are application aware.
+
+- They are intelligent, and you can create advanced request routing, sending specified requests to specefic web servers.
+
+- Network Load Balancers:
+
+- Best suited for load balancing of TCP traffic where extreme performance is required.
+
+- Operating at the connection level (Layer 4), Network Load Balancer are capable of handling millions of requests per second, while maintaining ultra low latencies.
+
+Used for extreme performance!
+
+- Classic Load Balancer
+
+- Legacy Elastic Load Balancers.
+
+- We can load balance HTTP/HTTPS applications and use layer 7-specefic features, such as X-forwarded and sticky sessions.
+
+- We can also use strict layer 4 load balancing for applications that purely rely on TCP protocol.
+
+- If application stops responding ELB responds 504 error.
+
+- X-Forworded-for header will have IP of user.
+
+__________________________________________________________
+
+- Instances monitored by ELB are reported as: InService or OutOfService.
+
+- Health Checks check the instance health by talking to it.
+
+- Load Balancers have their own DNS name. You are never given an IP address.
+
+- Read the ELB FAQ for Classic Load Balancers.
+
+__________________________________________________________
+
+Sticky Sessions
+
+- Classic Load Balancer routes each request independently to registered EC2 instance with the smallest load.
+
+- Sticky sessions allow you to bind a user's session to a specefic EC2 instance. This ensure all req. from a user during the session are sent to same instance.
+
+- We can enable Sticky sessions for Application Load Balancers a swel, but traffic will be sent to at the target group level.
+
+__________________________________________________________
+
+- Cross Zone load balancing enables you to load balance across multiple availability zones.
+
+- Path patterns allow you to direct traffic to different EC2 instances based on URL contained in the request.
+
+__________________________________________________________
+
+HA Architecture:
+
+- Always Design in failure.
+
+- Use Multiple AZ's and multiple Regions where ever you can.
+
+- Know difference between Multi-AZ and Read Replicas for RDS.
+
+- Know difference between scaling out and scaling up.
+
+- Read question and always consider cost element.
+
+- Know the different S3 Storage classes.
+
+__________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
