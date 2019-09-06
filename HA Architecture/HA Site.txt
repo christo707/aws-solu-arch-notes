@@ -1,0 +1,17 @@
+- In Ec2 instance etc folder,
+nano crontab to schedule a job
+
+CLOUDFORMATION
+
+- Way of completely scripting cloud environment.
+
+- Quick start is a bunch of CloudFormation templates already built by AWS Solutions Architects aloowing you to create complex environment very quickly.
+
+_______________________________________________________________________________________
+
+Elastic BeanStalk
+
+-Using Elastic Beanstalk, we can quickly deploy and manage applications in AWS Cloud without worrying about infrastructure that runs those applications. We can simply upload our application, and Elastic Beanstalk automatically handles the details of capacity provisioning, load balancing, scaling, and application health monitoring.
+
+
+________________________________________________________________________________________
