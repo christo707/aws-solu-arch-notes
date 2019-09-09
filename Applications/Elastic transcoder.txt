@@ -1,0 +1,10 @@
+Elastic Transcoder
+
+- Media transcoder in cloud
+
+- Convert media files from original source format in to different formats that will play on smartphones, tablets, PCs etc.
+
+- Provides transcoding presents for popular output formats.
+
+- Pay based on minutes that you transcode and resolution you transcode.
+

@@ -1,0 +1,47 @@
+Kenesis
+
+- Streaming data is data that is generated continously by thousands of data sources, which typically send in data records simultaneously, and in small size (order of kilobytes.)
+
+- Amazon kenesis is a platform on AWS to send your streaming data to.
+
+- Kenesis makies it easy to load and analyze straming data, and also provide ability for you to build your own clustom applications for business needs.
+
+3 Different types:
+
+- Kinesis Streams
+
+- Kinesis Firehose
+
+- Kinesis Analytics
+
+__________________________________________________________
+
+Kinesis Streams Consist of Shards.
+
+- By default stored for 24 hrs to 7 days.
+
+- 5 Transactions per seconds for reads, upto total data read rate of 2 MB per second and upto 1000 records per seconds for writes, up to a maximum total data write rate of 1 MB per second (including partition keys.)
+
+- Data capacity of your stream is a function of number of shards that you specify for stream. Total capacity of stream is sum of capacities of shards.
+
+__________________________________________________________
+
+Kinesis Firehose
+
+- No persistent storage
+
+- Different from Streams is that it process data as soon as data is available. Then it can output to s3 or elasticsearch cluster.
+
+__________________________________________________________
+
+Kinesis Analytics
+
+- Perform analytics on kinesis streams and firehose.
+
+__________________________________________________________
+
+
+
+
+
+ 

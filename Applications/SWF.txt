@@ -1,0 +1,28 @@
+SWF
+
+- Simple workflow service
+
+- Web service to make it easy to coordinate work(tasks) accross distributed application componments.
+
+- Taks represent invocations of various processing steps in an application which can be performed be executable code, web service calls, human actions and scripts.
+
+SWF vs SQS
+
+- SQS has retention period of 14 days, with SWF workflow executions can last upto 1 year.
+
+- SWF is task oriented API, SQS is message oriented API.
+
+- SWF ensures task is assigned only once and is never duplicated. In SQS we need to handle duplicated messages and also need to handle that message is processed only once.
+
+- SWF keeps track of all tasks and events in an application. With SQS we need to implement our own application level tracking, especially if our application uses multiple queues.
+
+__________________________________________________________
+
+SWF Actors
+
+- Workflow starters :- An application that can initiate(start) a workflow. Could be an e-commerce website following placement of an order.
+
+- Deciders :- Control the flow of activity tasks in a workflow execution. If something has finished (or failed) in a workflow, a Decider decides what to do next.
+
+- Activity workers :- Carry out the activity tasks.
+

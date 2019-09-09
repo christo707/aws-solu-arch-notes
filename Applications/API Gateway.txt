@@ -1,0 +1,43 @@
+API Gateway
+
+- Fully managed service that makes it easy for developers to publish, maintain, monitor, and secure APIs at any scale.
+
+What it can do?
+
+- Exposes HTTPS endpoints to define a Restful API
+
+- Serverless-ly connect to services like Lambda & DynamoDB.
+
+- Send each API endpoint to different target.
+
+- Run efficiently with low cost.
+
+- Scale effortlessly.
+
+- Track and control usage by API key.
+
+- Throttle request to prevent attacks.
+
+- Connect to cloudwatch to log all requests for monitoring.
+
+- Maintain multiple versions of your API.
+
+__________________________________________________________
+
+How to configure?
+
+- Define an API (container)
+
+- Define Resources and nested resources (URL paths)
+
+- For each Resource:
+
+	- Select supported HTTPS methods.
+	- Set security
+	- Choose target (such as EC2, Lambda, DynamoDB, etc.)
+	- Set request and response transformations.
+
+__________________________________________________________
+
+- API gateway has caching capability to increase performance.
+

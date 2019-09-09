@@ -1,0 +1,25 @@
+SNS
+
+- Simple Notification Service
+
+- It is a web service that makes easy to set up, operate, and send notifications from cloud.
+
+- Beside cloud notifications. It can also deliver notifications by SMS or email to Amazon SQS, or to any HTTP endpoint.
+
+- Allows you to group multiple recipents using topics. A topic is an "access point" for allowing recipients to dynamically subscribe for identical copies of same notification.
+
+- Store redudently in multiple AZ.
+
+- Instantaneous, push - based delivery (no polling)
+
+- Simple ALIs and easy integeration with applications.
+
+- Flexible message delivery over multiple transport protocols.
+
+__________________________________________________________
+
+SNS vs SQS
+
+- SNS is push based and SQS is poll based.
+
+__________________________________________________________
