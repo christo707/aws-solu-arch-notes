@@ -1,0 +1,5 @@
+- Lambda scales out (not up) automatically.
+
+- Lambda functions are independent.
+
+- Lambda is serverless.
